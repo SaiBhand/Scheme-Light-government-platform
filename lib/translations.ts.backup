@@ -1,0 +1,779 @@
+export const translations = {
+  en: {
+    // Header
+    home: "Home",
+    trust: "Trust",
+    howItWorks: "How It Works",
+    checkEligibility: "Check Eligibility",
+    help: "Help",
+
+    // Language Toggle
+    language: "Language",
+
+    // Hero Section
+    heroTitle: "Find Government Schemes You Are Eligible For",
+    heroSubtitle: "Simple eligibility check. Clear guidance. No middlemen.",
+    heroButton: "Check Eligibility",
+
+    // Trust Indicators
+    trustVerified: "Based on verified government data",
+    trustNoAgents: "No agents. No middlemen.",
+    trustDirect: "Direct official portal links",
+    trustCitizens: "Built for common citizens",
+    trustFree: "Free to use always",
+
+    // Fraud Awareness
+    fraudTitle: "Avoid Frauds - Important Information",
+    fraudNoFees: "No fees required for scheme applications (except official government fees)",
+    fraudNoAgents: "No agents needed - apply directly through official websites",
+    fraudOfficialLinks: "Always use official government links only",
+    fraudNoOTP: "Never share OTP or password with anyone",
+
+    // How It Works
+    howItWorksTitle: "How It Works",
+    howItWorksSubtitle: "Four simple steps to find and apply for government schemes",
+    step1Title: "Enter Your Details",
+    step1Desc: "Simple form to enter personal details",
+    step2Title: "System Checks Eligibility",
+    step2Desc: "AI explains schemes clearly",
+    step3Title: "View Results",
+    step3Desc: "See all eligible schemes",
+    step4Title: "Apply Confidently",
+    step4Desc: "Direct links to official portals",
+
+    // Manual Search
+    manualSearchTitle: "Looking for a Specific Scheme?",
+    manualSearchSubtitle:
+      'Search by scheme name, category, or keywords like "scholarship", "women", "farmer", "loan", etc.',
+    manualSearchPlaceholder: 'Type scheme name or keywords like "scholarship", "ladki bahin", "e-kyc", "pension"...',
+    manualSearchButton: "Search",
+    popularSearches: "Popular searches:",
+
+    // Results
+    searchResultsTitle: "Search Results",
+    searchResultsFound: "Found",
+    searchResultsMatching: "scheme(s) matching",
+    clearButton: "Clear",
+    viewDetails: "View Details",
+    applyButton: "Apply",
+
+    // Eligibility Form
+    eligibilityTitle: "Check Your Eligibility",
+    eligibilitySubtitle: "Enter your details below to find schemes you qualify for",
+
+    // Document Readiness
+    documentReadinessTitle: "Application Readiness Status",
+    documentReadinessDesc: "Check which documents you have ready. This helps prepare for applications.",
+    documentAadhaar: "Aadhaar Card",
+    documentBank: "Bank Account with Passbook",
+    documentIncome: "Income Certificate",
+    documentCategory: "Caste/Category Certificate",
+    documentReadinessPercent: "Document Readiness",
+
+    // Form Fields
+    fullName: "Full Name",
+    fullNamePlaceholder: "Enter your full name",
+    age: "Age",
+    agePlaceholder: "Enter your age",
+    gender: "Gender",
+    genderSelect: "Select gender",
+    male: "Male",
+    female: "Female",
+    other: "Other",
+    occupation: "Occupation",
+    occupationSelect: "Select occupation",
+    student: "Student",
+    farmer: "Farmer",
+    businessOwner: "Business Owner",
+    privateEmployee: "Private Employee",
+    governmentEmployee: "Government Employee",
+    selfEmployed: "Self-Employed",
+    unemployed: "Unemployed",
+    agriculturalWorker: "Agricultural Worker",
+    laborWorker: "Labor Worker",
+    annualIncome: "Annual Income (₹)",
+    annualIncomePlaceholder: "Enter annual income",
+    state: "State",
+    stateSelect: "Select state",
+    category: "Category",
+    categorySelect: "Select category",
+    general: "General",
+    obc: "OBC",
+    sc: "SC",
+    st: "ST",
+    ews: "EWS",
+    preferredLanguage: "Preferred Language",
+    languageSelect: "Select language",
+    english: "English",
+    hindi: "Hindi",
+    isDisabled: "Are you a person with disability?",
+    isWidow: "Are you a widow?",
+
+    // Conditional Fields
+    landOwnership: "Do you own agricultural land?",
+    landArea: "Total Land Area (in hectares)",
+    landAreaPlaceholder: "Enter land area",
+    currentClass: "Current Class/Standard",
+    currentClassPlaceholder: "e.g., 10th, 12th, Graduate",
+    institutionType: "Type of Institution",
+    institutionSelect: "Select institution type",
+    government: "Government",
+    private: "Private",
+    aided: "Aided",
+
+    // Modes
+    simplifiedMode: "Simple Explanation Mode",
+    normalMode: "Normal",
+    simpleMode: "Simple",
+    simplifiedModeDesc: "When enabled, schemes will be explained in very easy words with short sentences.",
+
+    // Results Section
+    resultsTitle: "Your Scheme Matches",
+    eligibleSchemesTitle: "Schemes You Are Eligible For",
+    eligibleSchemesDesc: "Based on your details, you can apply for these schemes",
+    notEligibleTitle: "Schemes You Are Currently Not Eligible For",
+    notEligibleDesc: "You don't meet all requirements for these schemes right now",
+    whyEligible: "Why You Are Eligible",
+    whyNotEligible: "Why You Are Not Eligible",
+    whatIsMissing: "What Is Missing",
+    canItBeFixed: "Can This Be Fixed?",
+
+    // Offline Help
+    offlineHelpTitle: "Need Help Applying?",
+    offlineHelpDesc: "If you cannot apply online, visit nearby:",
+    offlineHelpLocations: [
+      "Common Service Center (CSC)",
+      "Taluka Office",
+      "Gram Panchayat",
+      "District Collector Office",
+    ],
+
+    // Scheme Details
+    aboutScheme: "About This Scheme",
+    keyBenefits: "Key Benefits",
+    whoCanApply: "Who Can Apply?",
+    ageRequirement: "Age Requirement",
+    incomeLimit: "Income Limit",
+    categoryRequirement: "Category",
+    targetGroup: "Target Group",
+    requiredDocuments: "Required Documents",
+    howToApply: "How to Apply",
+    onlineApplication: "Online Application",
+    offlineApplication: "Offline Application",
+    officialInfo: "Official Government Information",
+    officialInfoDesc: "For more details and to apply, visit the official government portal:",
+    visitOfficial: "Visit Official Website",
+    applyNowButton: "Apply Now on Official Portal",
+    importantNote: "Important Note",
+    importantNoteDesc:
+      "Please verify all details and eligibility criteria on the official government website before applying. SchemeLight provides information only and is not responsible for the application process. Beware of fake agents and scams - never pay anyone for scheme applications unless it's an official government fee.",
+    whereToApplyOffline: "Where to Apply Offline",
+    offlineAssistanceDesc: "You can also apply or get help at these offline locations:",
+    backToResults: "Back to Results",
+    printDetails: "Print Scheme Details",
+
+    // Additional UI Text
+    aiPoweredPlatform: "AI-Powered GovTech Platform",
+    learnHowItWorks: "Learn How it Works",
+    whyTrustTitle: "Why Trust SchemeLight?",
+    whyTrustDesc: "We bridge the gap between citizens and government benefits with transparency and efficiency.",
+    secureLabel: "Secure",
+    verifiedLabel: "Verified",
+    citizenFirstLabel: "Citizen First",
+    searchPlaceholder: "Search for schemes (e.g. Farmers, Students)...",
+    searchButton: "Search",
+
+    // Trust Cards
+    trustCard1Title: "Built for Citizens",
+    trustCard1Desc: "Your data is encrypted and secure. We never share your personal information with third parties.",
+    trustCard2Title: "Direct Official Links",
+    trustCard2Desc: "Direct links to official government portals. No middlemen, no hidden fees.",
+    trustCard3Title: "AI Assistance",
+    trustCard3Desc: "Our AI guides you through complex eligibility criteria in simple language.",
+
+    // How It Works Section
+    simpleStepsTitle: "Simple steps to get your benefits.",
+    step1TitleShort: "Enter Details",
+    step1DescShort: "Provide basic info like age, income, and occupation in our secure form.",
+    step2TitleShort: "AI Analysis",
+    step2DescShort: "Our system instantly matches your profile against thousands of schemes.",
+    step3TitleShort: "Get Verified",
+    step3DescShort: "Upload documents to verify your eligibility with high confidence.",
+    step4TitleShort: "Apply Online",
+    step4DescShort: "Get direct application links and guidance on how to proceed.",
+    schemeSathiAI: "SchemeSathi AI",
+    alwaysHereToHelp: "Always here to help",
+
+    // Form Section
+    basicInformation: "Basic Information",
+    simpleMode: "Simple Mode",
+    selectPlaceholder: "Select",
+    selectState: "Select State",
+    selectOccupation: "Select Occupation",
+    yearsPlaceholder: "Years",
+
+    // Occupation Options
+    salariedEmployee: "Salaried Employee",
+    homemaker: "Homemaker",
+
+    // Conditional Questions
+    doYouOwnLand: "Do you own agricultural land?",
+    whatClass: "What class/standard are you in?",
+    typeOfInstitution: "Type of institution?",
+
+    // Document Section
+    documentsYouHave: "Documents You Have",
+    documentsHelp: "Check the documents you currently have. This helps us show you schemes you can apply for right away.",
+
+    // Submit Button
+    checkEligibilityButton: "Check Eligibility",
+    checking: "Checking...",
+
+    // Footer
+    footerCopyright: "© 2025 SchemeLight. All rights reserved.",
+    footerDisclaimer:
+      "Disclaimer: This is an information portal. Always verify details on official government websites before applying.",
+    quickLinks: "Quick Links",
+    aboutUs: "About Us",
+    contact: "Contact",
+    privacyPolicy: "Privacy Policy",
+    termsOfService: "Terms of Service",
+    support: "Support",
+    helpCenter: "Help Center",
+    feedback: "Feedback",
+    reportIssue: "Report Issue",
+  },
+  hi: {
+    // Header
+    home: "होम",
+    trust: "विश्वास",
+    howItWorks: "कैसे काम करता है",
+    checkEligibility: "पात्रता जांचें",
+    help: "सहायता",
+
+    // Language Toggle
+    language: "भाषा",
+
+    // Hero Section
+    heroTitle: "सरकारी योजनाएं खोजें जिनके लिए आप पात्र हैं",
+    heroSubtitle: "सरल पात्रता जांच। स्पष्ट मार्गदर्शन। कोई बिचौलिए नहीं।",
+    heroButton: "पात्रता जांचें",
+
+    // Trust Indicators
+    trustVerified: "सत्यापित सरकारी डेटा पर आधारित",
+    trustNoAgents: "कोई एजेंट नहीं। कोई बिचौलिए नहीं।",
+    trustDirect: "सीधे आधिकारिक पोर्टल लिंक",
+    trustCitizens: "आम नागरिकों के लिए बनाया गया",
+    trustFree: "हमेशा उपयोग करने के लिए मुफ्त",
+
+    // Fraud Awareness
+    fraudTitle: "धोखाधड़ी से बचें - महत्वपूर्ण जानकारी",
+    fraudNoFees: "योजना आवेदन के लिए कोई शुल्क की आवश्यकता नहीं है (आधिकारिक सरकारी शुल्क को छोड़कर)",
+    fraudNoAgents: "किसी एजेंट की जरूरत नहीं - सीधे आधिकारिक वेबसाइट के माध्यम से आवेदन करें",
+    fraudOfficialLinks: "हमेशा केवल आधिकारिक सरकारी लिंक का उपयोग करें",
+    fraudNoOTP: "किसी के साथ भी OTP या पासवर्ड साझा न करें",
+
+    // How It Works
+    howItWorksTitle: "कैसे काम करता है",
+    howItWorksSubtitle: "सरकारी योजनाओं को खोजने और आवेदन करने के लिए चार सरल चरण",
+    step1Title: "अपना विवरण दर्ज करें",
+    step1Desc: "व्यक्तिगत विवरण दर्ज करने के लिए सरल फॉर्म",
+    step2Title: "सिस्टम पात्रता जांचता है",
+    step2Desc: "AI योजनाओं को स्पष्ट रूप से समझाता है",
+    step3Title: "परिणाम देखें",
+    step3Desc: "सभी पात्र योजनाएं देखें",
+    step4Title: "आत्मविश्वास से आवेदन करें",
+    step4Desc: "आधिकारिक पोर्टल के सीधे लिंक",
+
+    // Manual Search
+    manualSearchTitle: "एक विशिष्ट योजना की तलाश है?",
+    manualSearchSubtitle: 'योजना के नाम, श्रेणी, या कीवर्ड जैसे "छात्रवृत्ति", "महिला", "किसान", "ऋण" आदि से खोजें।',
+    manualSearchPlaceholder: 'योजना का नाम या कीवर्ड टाइप करें जसे "छात्रवृत्ती", "लाडकी बहिन", "e-kyc", "pension"...',
+    manualSearchButton: "खोजें",
+    popularSearches: "लोकप्रिय खोजें:",
+
+    // Results
+    searchResultsTitle: "खोज परिणाम",
+    searchResultsFound: "मिली",
+    searchResultsMatching: "योजना(एं)",
+    clearButton: "साफ़ करें",
+    viewDetails: "विवरण देखें",
+    applyButton: "आवेदन करें",
+
+    // Eligibility Form
+    eligibilityTitle: "अपनी पात्रता जांचें",
+    eligibilitySubtitle: "आप जिन योजनाओं के लिए योग्य हैं उन्हें खोजने के लिए नीचे अपना विवरण दर्ज करें",
+
+    // Document Readiness
+    documentReadinessTitle: "आवेदन तैयारी स्थिति",
+    documentReadinessDesc: "जांचें कि आपके पास कौन से दस्तावेज़ तयार हैं। यह आवेदन के लिए तैयारी में मदद करता है।",
+    documentAadhaar: "आधार कार्ड",
+    documentBank: "पासबुक के साथ बैंक खाता",
+    documentIncome: "आय प्रमाण पत्र",
+    documentCategory: "जाति/श्रेणी प्रमाण पत्र",
+    documentReadinessPercent: "दस्तावेज़ तैयारी",
+
+    // Form Fields
+    fullName: "पूरा नाम",
+    fullNamePlaceholder: "अपना पूरा नाम दर्ज करें",
+    age: "उम्र",
+    agePlaceholder: "अपनी उम्र दर्ज करें",
+    gender: "लिंग",
+    genderSelect: "लिंग चुनें",
+    male: "पुरुष",
+    female: "महिला",
+    other: "अन्य",
+    occupation: "व्यवसाय",
+    occupationSelect: "व्यवसाय चुनें",
+    student: "छात्र",
+    farmer: "किसान",
+    businessOwner: "व्यवसाय मालिक",
+    privateEmployee: "निजी कर्मचारी",
+    governmentEmployee: "सरकारी कर्मचारी",
+    selfEmployed: "स्व-रोजगार",
+    unemployed: "बेरोजगार",
+    agriculturalWorker: "कृषि मजदूर",
+    laborWorker: "श्रमिक",
+    annualIncome: "वार्षिक आय (₹)",
+    annualIncomePlaceholder: "वार्षिक आय दर्ज करें",
+    state: "राज्य",
+    stateSelect: "राज्य चुनें",
+    category: "श्रेणी",
+    categorySelect: "श्रेणी चुनें",
+    general: "सामान्य",
+    obc: "ओबीसी",
+    sc: "एससी",
+    st: "एसटी",
+    ews: "ईडब्ल्यूएस",
+    preferredLanguage: "पसंदीदा भाषा",
+    languageSelect: "भाषा चुनें",
+    english: "अंग्रेजी",
+    hindi: "हिंदी",
+    isDisabled: "क्या आप विकलांग व्यक्ति हैं?",
+    isWidow: "क्या आप विधवा हैं?",
+
+    // Conditional Fields
+    landOwnership: "क्या आपके पास कृषि भूमि है?",
+    landArea: "कुल भूमि क्षेत्र (हेक्टेयर में)",
+    landAreaPlaceholder: "भूमि क्षेत्र दर्ज करें",
+    currentClass: "वर्तमान कक्षा/मानक",
+    currentClassPlaceholder: "जैसे, 10वीं, 12वीं, स्नातक",
+    institutionType: "संस्थान का प्रकार",
+    institutionSelect: "संस्थान प्रकार चुनें",
+    government: "सरकारी",
+    private: "निजी",
+    aided: "सहायता प्राप्त",
+
+    // Modes
+    simplifiedMode: "सरल व्याख्या मोड",
+    normalMode: "सामान्य",
+    simpleMode: "सरल",
+    simplifiedModeDesc: "सक्षम होने पर, योजनाओं को बहुत आसान शब्दों और छोटे वाक्यों में समझाया जाएगा।",
+
+    // Results Section
+    resultsTitle: "आपकी योजना मिलान",
+    eligibleSchemesTitle: "योजनाएं जिनके लिए आप पात्र हैं",
+    eligibleSchemesDesc: "आपके विवरण के आधार पर, आप इन योजनाओं के लिए आवेदन कर सकते हैं",
+    notEligibleTitle: "योजनाएं जिनके लिए आप वर्तमान में पात्र नहीं हैं",
+    notEligibleDesc: "आप इन योजनाओं के लिए अभी सभी आवश्यकताओं को पूरा नहीं करते हैं",
+    whyEligible: "आप पात्र क्यों हैं",
+    whyNotEligible: "आप पात्र क्यों नहीं हैं",
+    whatIsMissing: "क्या कमी है",
+    canItBeFixed: "क्या इसे ठीक किया जा सकता है?",
+
+    // Offline Help
+    offlineHelpTitle: "आवेदन करने में सहायता चाहिए?",
+    offlineHelpDesc: "यदि आप ऑनलाइन आवेदन नहीं कर सकते, तो निकटतम स्थान पर जाएं:",
+    offlineHelpLocations: ["कॉमन सर्विस सेंटर (CSC)", "तालुका कार्यालय", "ग्राम पंचायत", "जिला कलेक्टर कार्यालय"],
+
+    // Scheme Details
+    aboutScheme: "इस योजना के बारे में",
+    keyBenefits: "मुख्य लाभ",
+    whoCanApply: "कौन आवेदन कर सकता है?",
+    ageRequirement: "आयु आवश्यकता",
+    incomeLimit: "आय सीमा",
+    categoryRequirement: "श्रेणी",
+    targetGroup: "लक्षित समूह",
+    requiredDocuments: "आवश्यक दस्तावेज़",
+    howToApply: "आवेदन कैसे करें",
+    onlineApplication: "ऑनलाइन आवेदन",
+    offlineApplication: "ऑफलाइन आवेदन",
+    officialInfo: "आधिकारिक सरकारी जानकारी",
+    officialInfoDesc: "अधिक विवरण और आवेदन के लिए, आधिकारिक सरकारी पोर्टल पर जाएं:",
+    visitOfficial: "आधिकारिक वेबसाइट पर जाएं",
+    applyNowButton: "आधिकारिक पोर्टल पर अभी आवेदन करें",
+    importantNote: "महत्वपूर्ण सूचना",
+    importantNoteDesc:
+      "कृपया आवेदन करने से पहले आधिकारिक सरकारी वेबसाइट पर सभी विवरण और पात्रता मानदंड सत्यापित करें। SchemeLight केवल जानकारी प्रदान करता है और आवेदन प्रक्रिया के लिए जिम्मेदार नहीं है। नकली एजेंटों और घोटालों से सावधान रहें - आधिकारिक सरकारी शुल्क के अलावा योजना आवेदन के लिए किसी को भी भुगतान न करें।",
+    whereToApplyOffline: "ऑफलाइन कहां आवेदन करें",
+    offlineAssistanceDesc: "आप इन ऑफलाइन स्थानों पर भी आवेदन कर सकते हैं या सहायता प्राप्त कर सकते हैं:",
+    backToResults: "परिणामों पर वापस जाएं",
+    printDetails: "योजना विवरण प्रिंट करें",
+
+    // Footer
+    footerCopyright: "© 2025 SchemeLight। सर्वाधिकार सुरक्षित।",
+    footerDisclaimer: "अस्वीकरण: यह एक सूचना पोर्टल है। आवेदन करने से पहले हमेशा आधिकारिक सरकारी वेबसाइटों पर विवरण सत्यापित करें।",
+    quickLinks: "त्वरित लिंक",
+    aboutUs: "हमारे बारे में",
+    contact: "संपर्क करें",
+    privacyPolicy: "गोपनीयता नीति",
+    termsOfService: "सेवा की शर्तें",
+    support: "सहायता",
+    helpCenter: "सहायता केंद्र",
+    feedback: "प्रतिक्रिया",
+    reportIssue: "समस्या रिपोर्ट करें",
+  },
+  mr: {
+    // Header
+    checkEligibility: "पात्रता जांचें",
+    help: "सहायता",
+
+    // Language Toggle
+    language: "भाषा",
+
+    // Hero Section
+    heroTitle: "सरकारी योजनाएं खोजें जिनके लिए आप पात्र हैं",
+    heroSubtitle: "सरल पात्रता जांच। स्पष्ट मार्गदर्शन। कोई बिचौलिए नहीं।",
+    heroButton: "पात्रता जांचें",
+
+    // Trust Indicators
+    trustVerified: "सत्यापित सरकारी डेटा पर आधारित",
+    trustNoAgents: "कोई एजेंट नहीं। कोई बिचौलिए नहीं।",
+    trustDirect: "सीधे आधिकारिक पोर्टल लिंक",
+    trustCitizens: "आम नागरिकों के लिए बनाया गया",
+    trustFree: "हमेशा उपयोग करने के लिए मुफ्त",
+
+    // Fraud Awareness
+    fraudTitle: "धोखाधड़ी से बचें - महत्वपूर्ण जानकारी",
+    fraudNoFees: "योजना आवेदन के लिए कोई शुल्क की आवश्यकता नहीं है (आधिकारिक सरकारी शुल्क को छोड़कर)",
+    fraudNoAgents: "किसी एजेंट की जरूरत नहीं - सीधे आधिकारिक वेबसाइट के माध्यम से आवेदन करें",
+    fraudOfficialLinks: "हमेशा केवल आधिकारिक सरकारी लिंक का उपयोग करें",
+    fraudNoOTP: "किसी के साथ भी OTP या पासवर्ड साझा न करें",
+
+    // How It Works
+    howItWorksTitle: "कैसे काम करता है",
+    howItWorksSubtitle: "सरकारी योजनाओं को खोजने और आवेदन करने के लिए चार सरल चरण",
+    step1Title: "अपना विवरण दर्ज करें",
+    step1Desc: "व्यक्तिगत विवरण दर्ज करने के लिए सरल फॉर्म",
+    step2Title: "सिस्टम पात्रता जांचता है",
+    step2Desc: "AI योजनाओं को स्पष्ट रूप से समझाता है",
+    step3Title: "परिणाम देखें",
+    step3Desc: "सभी पात्र योजनाएं देखें",
+    step4Title: "आत्मविश्वास से आवेदन करें",
+    step4Desc: "आधिकारिक पोर्टल के सीधे लिंक",
+
+    // Manual Search
+    manualSearchTitle: "एक विशिष्ट योजना की तलाश है?",
+    manualSearchSubtitle: 'योजना के नाम, श्रेणी, या कीवर्ड जैसे "छात्रवृत्ति", "महिला", "किसान", "ऋण" आदि से खोजें।',
+    manualSearchPlaceholder: 'योजना का नाम या कीवर्ड टाइप करें जैसे "छात्रवृत्ति", "लाडकी बहिन", "e-kyc", "पेंशन"...',
+    manualSearchButton: "खोजें",
+    popularSearches: "लोकप्रिय खोजें:",
+
+    // Results
+    searchResultsTitle: "खोज परिणाम",
+    searchResultsFound: "मिली",
+    searchResultsMatching: "योजना(एं)",
+    clearButton: "साफ़ करें",
+    viewDetails: "विवरण देखें",
+    applyButton: "आवेदन करें",
+
+    // Eligibility Form
+    eligibilityTitle: "अपनी पात्रता जांचें",
+    eligibilitySubtitle: "आप जिन योजनाओं के लिए योग्य हैं उन्हें खोजने के लिए नीचे अपना विवरण दर्ज करें",
+
+    // Document Readiness
+    documentReadinessTitle: "आवेदन तैयारी स्थिति",
+    documentReadinessDesc: "जांचें कि आपके पास कौन से दस्तावेज़ तैयार हैं। यह आवेदन के लिए तैयारी में मदद करता है।",
+    documentAadhaar: "आधार कार्ड",
+    documentBank: "पासबुक के साथ बैंक खाता",
+    documentIncome: "आय प्रमाण पत्र",
+    documentCategory: "जाति/श्रेणी प्रमाण पत्र",
+    documentReadinessPercent: "दस्तावेज़ तैयारी",
+
+    // Form Fields
+    fullName: "पूरा नाम",
+    fullNamePlaceholder: "अपना पूरा नाम दर्ज करें",
+    age: "उम्र",
+    agePlaceholder: "अपनी उम्र दर्ज करें",
+    gender: "लिंग",
+    genderSelect: "लिंग चुनें",
+    male: "पुरुष",
+    female: "महिला",
+    other: "अन्य",
+    occupation: "व्यवसाय",
+    occupationSelect: "व्यवसाय चुनें",
+    student: "छात्र",
+    farmer: "किसान",
+    businessOwner: "व्यवसाय मालिक",
+    privateEmployee: "निजी कर्मचारी",
+    governmentEmployee: "सरकारी कर्मचारी",
+    selfEmployed: "स्व-रोजगार",
+    unemployed: "बेरोजगार",
+    agriculturalWorker: "कृषि मजदूर",
+    laborWorker: "श्रमिक",
+    annualIncome: "वार्षिक आय (₹)",
+    annualIncomePlaceholder: "वार्षिक आय दर्ज करें",
+    state: "राज्य",
+    stateSelect: "राज्य चुनें",
+    category: "श्रेणी",
+    categorySelect: "श्रेणी चुनें",
+    general: "सामान्य",
+    obc: "ओबीसी",
+    sc: "एससी",
+    st: "एसटी",
+    ews: "ईडब्ल्यूएस",
+    preferredLanguage: "पसंदीदा भाषा",
+    languageSelect: "भाषा चुनें",
+    english: "अंग्रेजी",
+    hindi: "हिंदी",
+    isDisabled: "क्या आप विकलांग व्यक्ति हैं?",
+    isWidow: "क्या आप विधवा हैं?",
+
+    // Conditional Fields
+    landOwnership: "क्या आपके पास कृषि भूमि है?",
+    landArea: "कुल भूमि क्षेत्र (हेक्टेयर में)",
+    landAreaPlaceholder: "भूमि क्षेत्र दर्ज करें",
+    currentClass: "वर्तमान कक्षा/मानक",
+    currentClassPlaceholder: "जैसे, 10वीं, 12वीं, स्नातक",
+    institutionType: "संस्थान का प्रकार",
+    institutionSelect: "संस्थान प्रकार चुनें",
+    government: "सरकारी",
+    private: "निजी",
+    aided: "सहायता प्राप्त",
+
+    // Modes
+    simplifiedMode: "सरल व्याख्या मोड",
+    normalMode: "सामान्य",
+    simpleMode: "सरल",
+    simplifiedModeDesc: "सक्षम होने पर, योजनाओं को बहुत आसान शब्दों और छोटे वाक्यों में समझाया जाएगा।",
+
+    // Results Section
+    resultsTitle: "आपकी योजना मिलान",
+    eligibleSchemesTitle: "योजनाएं जिनके लिए आप पात्र हैं",
+    eligibleSchemesDesc: "आपके विवरण के आधार पर, आप इन योजनाओं के लिए आवेदन कर सकते हैं",
+    notEligibleTitle: "योजनाएं जिनके लिए आप वर्तमान में पात्र नहीं हैं",
+    notEligibleDesc: "आप इन योजनाओं के लिए अभी सभी आवश्यकताओं को पूरा नहीं करते हैं",
+    whyEligible: "आप पात्र क्यों हैं",
+    whyNotEligible: "आप पात्र क्यों नहीं हैं",
+    whatIsMissing: "क्या कमी है",
+    canItBeFixed: "क्या इसे ठीक किया जा सकता है?",
+
+    // Offline Help
+    offlineHelpTitle: "आवेदन करने में सहायता चाहिए?",
+    offlineHelpDesc: "यदि आप ऑनलाइन आवेदन नहीं कर सकते, तो निकटतम स्थान पर जाएं:",
+    offlineHelpLocations: ["कॉमन सर्विस सेंटर (CSC)", "तालुका कार्यालय", "ग्राम पंचायत", "जिला कलेक्टर कार्यालय"],
+
+    // Scheme Details
+    aboutScheme: "इस योजना के बारे में",
+    keyBenefits: "मुख्य लाभ",
+    whoCanApply: "कौन आवेदन कर सकता है?",
+    ageRequirement: "आयु आवश्यकता",
+    incomeLimit: "आय सीमा",
+    categoryRequirement: "श्रेणी",
+    targetGroup: "लक्षित समूह",
+    requiredDocuments: "आवश्यक दस्तावेज़",
+    howToApply: "आवेदन कैसे करें",
+    onlineApplication: "ऑनलाइन आवेदन",
+    offlineApplication: "ऑफलाइन आवेदन",
+    officialInfo: "आधिकारिक सरकारी जानकारी",
+    officialInfoDesc: "अधिक विवरण और आवेदन के लिए, आधिकारिक सरकारी पोर्टल पर जाएं:",
+    visitOfficial: "आधिकारिक वेबसाइट पर जाएं",
+    applyNowButton: "आधिकारिक पोर्टल पर अभी आवेदन करें",
+    importantNote: "महत्वपूर्ण सूचना",
+    importantNoteDesc:
+      "कृपया आवेदन करने से पहले आधिकारिक सरकारी वेबसाइट पर सभी विवरण और पात्रता मानदंड सत्यापित करें। SchemeLight केवल जानकारी प्रदान करता है और आवेदन प्रक्रिया के लिए जिम्मेदार नहीं है। नकली एजेंटों और घोटालों से सावधान रहें - आधिकारिक सरकारी शुल्क के अलावा योजना आवेदन के लिए किसी को भी भुगतान न करें।",
+    whereToApplyOffline: "ऑफलाइन कहां आवेदन करें",
+    offlineAssistanceDesc: "आप इन ऑफलाइन स्थानों पर भी आवेदन कर सकते हैं या सहायता प्राप्त कर सकते हैं:",
+    backToResults: "परिणामों पर वापस जाएं",
+    printDetails: "योजना विवरण प्रिंट करें",
+
+    // Footer
+    footerCopyright: "© 2025 SchemeLight। सर्वाधिकार सुरक्षित।",
+    footerDisclaimer: "अस्वीकरण: यह एक सूचना पोर्टल है। आवेदन करने से पहले हमेशा आधिकारिक सरकारी वेबसाइटों पर विवरण सत्यापित करें।",
+  },
+  mr: {
+    // Header
+    home: "मुख्य पृष्ठ",
+    trust: "विश्वास",
+    howItWorks: "कार्यप्रणाली",
+    checkEligibility: "पात्रता तपासा",
+    help: "मदत",
+
+    // Language Toggle
+    language: "भाषा",
+
+    // Hero Section
+    heroTitle: "तुमच्यासाठी पात्र असलेल्या सरकारी योजना शोधा",
+    heroSubtitle: "सोपी पात्रता तपासणी. स्पष्ट मार्गदर्शन. कोणतेही मध्यस्थ नाहीत.",
+    heroButton: "पात्रता तपासा",
+
+    // Trust Indicators
+    trustVerified: "सत्यापित सरकारी डेटावर आधारित",
+    trustNoAgents: "कोणतेही एजंट नाहीत. कोणतेही मध्यस्थ नाहीत.",
+    trustDirect: "थेट अधिकृत पोर्टल लिंक्स",
+    trustCitizens: "सर्वसामान्यांसाठी बनवलेले",
+    trustFree: "नेहमी वापरण्यासाठी मोफत",
+
+    // Fraud Awareness
+    fraudTitle: "फसवणुकीपासून सावध राहा - महत्वाची माहिती",
+    fraudNoFees: "योजना अर्जासाठी कोणतेही शुल्क आवश्यक नाही (अधिकृत सरकारी शुल्क वगळता)",
+    fraudNoAgents: "कोणत्याही एजंटची गरज नाही - थेट अधिकृत वेबसाइटद्वारे अर्ज करा",
+    fraudOfficialLinks: "नेहमी फक्त अधिकृत सरकारी लिंक्स वापरा",
+    fraudNoOTP: "कोणाशीही OTP किंवा पासवर्ड शेअर करू नका",
+
+    // How It Works
+    howItWorksTitle: "हे कसे कार्य करते",
+    howItWorksSubtitle: "सरकारी योजना शोधण्यासाठी आणि अर्ज करण्यासाठी चार सोपे टप्पे",
+    step1Title: "तुमचा तपशील भरा",
+    step1Desc: "वैयक्तिक तपशील भरण्यासाठी सोपा फॉर्म",
+    step2Title: "प्रणाली पात्रता तपासते",
+    step2Desc: "AI योजना स्पष्टपणे समजावून सांगते",
+    step3Title: "निकाल पहा",
+    step3Desc: "सर्व पात्र योजना पहा",
+    step4Title: "आत्मविश्वासाने अर्ज करा",
+    step4Desc: "अधिकृत पोर्टल्सच्या थेट लिंक्स",
+
+    // Manual Search
+    manualSearchTitle: "विशिष्ट योजना शोधत आहात?",
+    manualSearchSubtitle: 'योजनेचे नाव, श्रेणी किंवा कीवर्ड जसे "शिष्यवृत्ती", "महिला", "शेतकरी", "कर्ज" इत्यादीद्वारे शोधा.',
+    manualSearchPlaceholder: 'योजनेचे नाव किंवा कीवर्ड टाइप करा जसे "शिष्यवृत्ती", "लाडकी बहीण", "ई-केवायसी", "पेन्शन"...',
+    manualSearchButton: "शोधा",
+    popularSearches: "लोकप्रिय शोध:",
+
+    // Results
+    searchResultsTitle: "शोध निकाल",
+    searchResultsFound: "सापडल्या",
+    searchResultsMatching: "जुळणाऱ्या योजना",
+    clearButton: "साफ करा",
+    viewDetails: "तपशील पहा",
+    applyButton: "अर्ज करा",
+
+    // Eligibility Form
+    eligibilityTitle: "तुमची पात्रता तपासा",
+    eligibilitySubtitle: "तुम्ही पात्र असलेल्या योजना शोधण्यासाठी खाली तुमचा तपशील भरा",
+
+    // Document Readiness
+    documentReadinessTitle: "अर्ज तयारी स्थिती",
+    documentReadinessDesc: "तुमच्याकडे कोणती कागदपत्रे तयार आहेत ते तपासा. हे अर्जासाठी मदत करते.",
+    documentAadhaar: "आधार कार्ड",
+    documentBank: "पासबुकसह बँक खाते",
+    documentIncome: "उत्पन्न प्रमाणपत्र",
+    documentCategory: "जात/श्रेणी प्रमाणपत्र",
+    documentReadinessPercent: "कागदपत्र तयारी",
+
+    // Form Fields
+    fullName: "पूर्ण नाव",
+    fullNamePlaceholder: "तुमचे पूर्ण नाव प्रविष्ट करा",
+    age: "वय",
+    agePlaceholder: "तुमचे वय प्रविष्ट करा",
+    gender: "लिंग",
+    genderSelect: "लिंग निवडा",
+    male: "पुरुष",
+    female: "महिला",
+    other: "इतर",
+    occupation: "व्यवसाय",
+    occupationSelect: "व्यवसाय निवडा",
+    student: "विद्यार्थी",
+    farmer: "शेतकरी",
+    businessOwner: "व्यवसाय मालक",
+    privateEmployee: "खाजगी कर्मचारी",
+    governmentEmployee: "सरकारी कर्मचारी",
+    selfEmployed: "स्वयंरोजगार",
+    unemployed: "बेरोजगार",
+    agriculturalWorker: "शेतमजूर",
+    laborWorker: "कामगार",
+    annualIncome: "वार्षिक उत्पन्न (₹)",
+    annualIncomePlaceholder: "वार्षिक उत्पन्न प्रविष्ट करा",
+    state: "राज्य",
+    stateSelect: "राज्य निवडा",
+    category: "श्रेणी",
+    categorySelect: "श्रेणी निवडा",
+    general: "खुला",
+    obc: "ओबीसी",
+    sc: "एससी",
+    st: "एसटी",
+    ews: "ईडब्ल्यूएस",
+    preferredLanguage: "पसंतीची भाषा",
+    languageSelect: "भाषा निवडा",
+    english: "इंग्रजी",
+    hindi: "हिंदी",
+    marathi: "मराठी",
+    isDisabled: "तुम्ही दिव्यांग व्यक्ती आहात का?",
+    isWidow: "तुम्ही विधवा आहात का?",
+
+    // Conditional Fields
+    landOwnership: "तुमच्याकडे शेतजमीन आहे का?",
+    landArea: "एकूण जमीन क्षेत्र (हेक्टरमध्ये)",
+    landAreaPlaceholder: "जमीन क्षेत्र प्रविष्ट करा",
+    currentClass: "सध्याची इयत्ता/मानक",
+    currentClassPlaceholder: "उदा. १०वी, १२वी, पदवीधर",
+    institutionType: "संस्थेचा प्रकार",
+    institutionSelect: "संस्था प्रकार निवडा",
+    government: "सरकारी",
+    private: "खाजगी",
+    aided: "अनुदानित",
+
+    // Modes
+    simplifiedMode: "सोपे स्पष्टीकरण मोड",
+    normalMode: "सामान्य",
+    simpleMode: "सोपे",
+    simplifiedModeDesc: "सक्षम केल्यावर, योजना खूप सोप्या शब्दांत आणि लहान वाक्यांत समजावून सांगितल्या जातील.",
+
+    // Results Section
+    resultsTitle: "तुमच्या जुळणाऱ्या योजना",
+    eligibleSchemesTitle: "तुम्ही पात्र असलेल्या योजना",
+    eligibleSchemesDesc: "तुमच्या तपशीलांवर आधारित, तुम्ही या योजनांसाठी अर्ज करू शकता",
+    notEligibleTitle: "योजना ज्यासाठी तुम्ही सध्या पात्र नाही",
+    notEligibleDesc: "तुम्ही सध्या या योजनांसाठी सर्व आवश्यकता पूर्ण करत नाही",
+    whyEligible: "तुम्ही पात्र का आहात",
+    whyNotEligible: "तुम्ही पात्र का नाही",
+    whatIsMissing: "काय गहाळ आहे",
+    canItBeFixed: "हे निश्चित केले जाऊ शकते का?",
+
+    // Offline Help
+    offlineHelpTitle: "अर्ज करण्यासाठी मदत हवी आहे?",
+    offlineHelpDesc: "जर तुम्ही ऑनलाइन अर्ज करू शकत नसाल, तर जवळच्या ठिकाणी भेट द्या:",
+    offlineHelpLocations: ["कॉमन सर्व्हिस सेंटर (CSC)", "तालुका कार्यालय", "ग्रामपंचायत", "जिल्हाधिकारी कार्यालय"],
+
+    // Scheme Details
+    aboutScheme: "या योजनेबद्दल",
+    keyBenefits: "मुख्य फायदे",
+    whoCanApply: "कोण अर्ज करू शकते?",
+    ageRequirement: "वय मर्यादा",
+    incomeLimit: "उत्पन्न मर्यादा",
+    categoryRequirement: "श्रेणी",
+    targetGroup: "लक्षित गट",
+    requiredDocuments: "आवश्यक कागदपत्रे",
+    howToApply: "अर्ज कसा करावा",
+    onlineApplication: "ऑनलाइन अर्ज",
+    offlineApplication: "ऑफलाइन अर्ज",
+    officialInfo: "अधिकृत सरकारी माहिती",
+    officialInfoDesc: "अधिक माहितीसाठी आणि अर्ज करण्यासाठी, अधिकृत सरकारी पोर्टलला भेट द्या:",
+    visitOfficial: "अधिकृत वेबसाइटला भेट द्या",
+    applyNowButton: "अधिकृत पोर्टलवर आता अर्ज करा",
+    importantNote: "महत्वाची सूचना",
+    importantNoteDesc:
+      "कृपया अर्ज करण्यापूर्वी अधिकृत सरकारी वेबसाइटवर सर्व तपशील आणि पात्रता निकष तपासा. SchemeLight फक्त माहिती पुरवते आणि अर्ज प्रक्रियासाठी जबाबदार नाही. बनावट एजंट्स आणि फसवणुकीपासून सावध राहा - अधिकृत सरकारी शुल्क वगळता योजना अर्जासाठी कोणालाही पैसे देऊ नका.",
+    whereToApplyOffline: "ऑफलाइन अर्ज कुठे करावा",
+    offlineAssistanceDesc: "तुम्ही या ऑफलाइन ठिकाणी देखील अर्ज करू शकता किंवा मदत मिळवू शकता:",
+    backToResults: "निकाल परत जा",
+    printDetails: "योजना तपशील प्रिंट करा",
+
+    // Footer
+    footerCopyright: "© 2025 SchemeLight. सर्व हक्क राखीव.",
+    footerDisclaimer: "अस्वीकरण: हे एक माहिती पोर्टल आहे. अर्ज करण्यापूर्वी नेहमी अधिकृत सरकारी वेबसाइटवर तपशील तपासा.",
+  },
+}
+
+export type Language = "en" | "hi" | "mr"
+
+export function getTranslation(lang: Language, key: string): string {
+  const keys = key.split(".")
+  let value: any = translations[lang]
+
+  for (const k of keys) {
+    value = value?.[k]
+  }
+
+  return value || key
+}
